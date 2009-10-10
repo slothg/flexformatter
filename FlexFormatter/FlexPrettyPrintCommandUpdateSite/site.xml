@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/FlexPrettyPrintCommandFeature_0.6.29.jar" id="FlexPrettyPrintCommandFeature" version="0.6.29"/>
+   <feature url="features/FlexPrettyPrintCommandFeature_0.6.30.jar" id="FlexPrettyPrintCommandFeature" version="0.6.30"/>
 </site>
