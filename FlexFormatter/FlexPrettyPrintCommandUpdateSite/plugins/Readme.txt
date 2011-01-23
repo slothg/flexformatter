@@ -1,4 +1,4 @@
-#Version 0.7.9
+#Version 0.8.0
  
  
 * System Requirements: Eclipse 3.3+, JDK 1.5+.  The intent is for this software to be used with FlexBuilder 3 or 4, but there are no actual dependencies.
@@ -32,6 +32,19 @@ bug/feature report through the 'tracker'.
  
 -----------------------------------------------------------------------------------------------------------
 #Change log
+
+###0.8.0
+
+1/22/2011
+####New Features
+
+* NONE: this release is to fix a critical bug with the experimental brace removal feature
+
+####Fixes
+
+* !!!If the Smart Add/Remove braces feature is enabled, empty blocks may be removed, causing invalid code!  Do not use prior releases if you have enabled this option!
+* Smart Add/Remove braces feature would leave blank lines if a removed brace was on a line by itself.
+* Smart Add/Remove braces didn't work correctly if removing braces in mxml files.  Breakpoints might be lost.
  
 ###0.7.9
 
