@@ -1,4 +1,4 @@
-#Version 0.8.0
+#Version 0.8.1
  
  
 * System Requirements: Eclipse 3.3+, JDK 1.5+.  The intent is for this software to be used with FlexBuilder 3 or 4, but there are no actual dependencies.
@@ -33,6 +33,26 @@ bug/feature report through the 'tracker'.
 -----------------------------------------------------------------------------------------------------------
 #Change log
 
+###0.8.1
+
+2/17/2011
+####New Features
+
+* Added flag on command line to allow specifying of input file charset.  These are Java charset strings (ex. "UTF8")
+* Added handling for a single file on the command line instead of requiring a directory.
+* Parameter assignment can now be specified separately for wrapping.
+* Const fields can now be selected for rearranging on the custom members dialog
+* Option to control blank lines before/after script within the CDATA block.
+* Option to add blank lines before the closing tag of a block (if it has children)
+* Options for whether to add a carriage return to if/loops for simple structures (break/return/continue) that don't already contain a carriage return (buried under the 'Braces' twistie) 
+
+####Fixes
+
+* The option to keep the end of the CDATA block with the end mx:Script tag didn't work in all cases.
+* The '.' in a Vector declaration could be used as a split point for line wrapping. 
+* Bug with copyright placement on files with imports but no package statement.
+* Bug with formatting of the selected lines (crash dialog) that was introduced a few releases ago.  I think it only happened with the '=' alignment or brace add/remove
+ 
 ###0.8.0
 
 1/22/2011
