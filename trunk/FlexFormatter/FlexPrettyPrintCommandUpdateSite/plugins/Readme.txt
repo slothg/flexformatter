@@ -1,4 +1,4 @@
-#Version 0.8.1
+#Version 0.8.2
  
  
 * System Requirements: Eclipse 3.3+, JDK 1.5+.  The intent is for this software to be used with FlexBuilder 3 or 4, but there are no actual dependencies.
@@ -32,6 +32,21 @@ bug/feature report through the 'tracker'.
  
 -----------------------------------------------------------------------------------------------------------
 #Change log
+
+###0.8.2
+
+3/12/2011
+####New Features
+
+* Flags to control whether carriage returns are added to expression/throws statements after an 'if'.  Buried under the advanced 'brace style' settings.
+* Added option to control whether end ;/]/) of a wrapped expression gets unindented.
+* Added ability to override options per project.  This should also allow pushing the per-project options files to source control.
+* Added ability in rearranging to grab only getter/setter functions and then their associated properties.  Before, you could only grab the properties and then add the getters/setters to the group.
+
+####Fixes
+
+* Parser now supports '@' symbol before metatags in Actionscript code.  Apparently this is kind of a gray area in FlashBuilder, but does work.
+* Fixed handling of indent for function expressions
 
 ###0.8.1
 
