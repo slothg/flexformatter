@@ -1,4 +1,4 @@
-#Version 0.8.2
+#Version 0.8.3
  
  
 * System Requirements: Eclipse 3.3+, JDK 1.5+.  The intent is for this software to be used with FlexBuilder 3 or 4, but there are no actual dependencies.
@@ -32,6 +32,22 @@ bug/feature report through the 'tracker'.
  
 -----------------------------------------------------------------------------------------------------------
 #Change log
+
+###0.8.3
+
+4/10/2011
+####New Features
+
+* Now a setting to control breaking before or after operators
+* Setting under "Advanced wrapping" to wrap each (every) argument to a function call if the maximum line length is reached
+* Ditto for parameters in function declarations
+* Options to wrap arrays with or without alignment
+* Options to wrap object declarations with or without alignment
+* New command (toolbar icon and option in mxml prefs) to remove unused namespace declarations in mxml files.
+
+####Fixes
+
+* One regression introduced in 0.8.1 for specifying a charset when running from the command line. 
 
 ###0.8.2
 
