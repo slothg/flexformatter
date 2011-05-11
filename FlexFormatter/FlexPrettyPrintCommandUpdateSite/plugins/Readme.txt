@@ -1,4 +1,4 @@
-#Version 0.8.3
+#Version 0.8.5
  
  
 * System Requirements: Eclipse 3.3+, JDK 1.5+.  The intent is for this software to be used with FlexBuilder 3 or 4, but there are no actual dependencies.
@@ -32,6 +32,31 @@ bug/feature report through the 'tracker'.
  
 -----------------------------------------------------------------------------------------------------------
 #Change log
+
+###0.8.5
+
+5/11/2011
+####New Features
+
+* Comment wrapping.  See the new 'Comments' tab under 'Actionscript'.  You must disable the "keep relative indent for comments" option to see enable the wrapping options.
+* Added ability to keep tags other than Bindable on same line with properties (see table on Tweaks page)
+* Added Gnu-style brace indent for statements.  Only applies to statements, not package/class/function.
+
+####Fixes
+
+* Now ensure document ends with newline if whole document is formatted.  This is for consistency with the command line operation.
+* Now honor spaces around '=' on metatags.
+
+###0.8.4
+
+4/11/2011
+####New Features
+
+* None
+
+####Fixes
+
+* New feature to remove unused namespaces would remove mx/fx/s, so I hardcoded in for now NOT to remove those to prevent surprises.
 
 ###0.8.3
 
