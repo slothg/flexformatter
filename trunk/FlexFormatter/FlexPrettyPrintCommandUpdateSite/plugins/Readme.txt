@@ -1,4 +1,4 @@
-#Version 0.8.5
+#Version 0.8.6
  
  
 * System Requirements: Eclipse 3.3+, JDK 1.5+.  The intent is for this software to be used with FlexBuilder 3 or 4, but there are no actual dependencies.
@@ -32,6 +32,21 @@ bug/feature report through the 'tracker'.
  
 -----------------------------------------------------------------------------------------------------------
 #Change log
+
+###0.8.6
+
+6/20/2011
+####New Features
+
+* Added setting to not indent the 'case' keyword for switch statements.  On the Actionscript 'tweaks' page.  This probably only makes sense for 'cuddled' braces.
+* Extended the semantics of 'No newlines before break/continue/expressions' settings to include 'else' and loops.  These options are buried under the 'Braces/Line breaks' section.
+* Added option to not indent the closing tag if it has been forced to a newline in mxml.  This is on the "Custom attribute order" dialog.
+* Added option to control spaces around equals in metatags.  On Actionscript 'tweaks' page.
+* Added ability to associated getters and setters without requiring the sort option.  This is in the ActionScript Rearranging settings.  Should work for both simple settings and creating advanced member selectors.
+
+####Fixes
+
+* Format on save (autoformat) would stop working sometimes.  I tracked down one case where this happened if you issue an undo/redo when it's not legal.
 
 ###0.8.5
 
