@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/FlexPrettyPrintCommandFeature_0.8.6.jar" id="FlexPrettyPrintCommandFeature" version="0.8.6">
+   <feature url="features/FlexPrettyPrintCommandFeature_0.8.7.jar" id="FlexPrettyPrintCommandFeature" version="0.8.7">
       <category name="FlexFormatter"/>
    </feature>
    <category-def name="FlexFormatter" label="FlexFormatter">
