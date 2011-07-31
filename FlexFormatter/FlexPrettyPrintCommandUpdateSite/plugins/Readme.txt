@@ -1,4 +1,4 @@
-#Version 0.8.6
+#Version 0.8.8
  
  
 * System Requirements: Eclipse 3.3+, JDK 1.5+.  The intent is for this software to be used with FlexBuilder 3 or 4, but there are no actual dependencies.
@@ -19,7 +19,10 @@ Eclipse plugins directory (Eclipse 3.3) or the dropins
 directory (Eclipse 3.4+) and restart Eclipse (with -clean 
 if you are using 3.3).  Enough people have had problems with this with Eclipse 3.4+ that I recommend only using the update site.
  
- 
+* In FlashBuilder 4.5, Adobe has now defined a formatting command to the Ctrl+shift+F keystroke.  This means that
+that the same keystroke is assigned to 2 different commands.  You can go to Windows->Preferences->General-Keys to
+unassign/reassign the keystroke for one version or the other.
+If you use "format on save", you will be unaffected. 
  
 * Usage See the docs page for a usage doc that describes the
 options.  https://sourceforge.net/apps/mediawiki/flexformatter/index.php?title=Preferences
@@ -32,6 +35,28 @@ bug/feature report through the 'tracker'.
  
 -----------------------------------------------------------------------------------------------------------
 #Change log
+
+###0.8.8
+
+7/31/2011
+####New Features
+
+* Arranging the order of MXML elements inside the Application tag.  There's a new "MXML Rearranging" tab that works similarly to the "AS Rearranging" tab.
+
+####Fixes
+
+* Fixed regression where the "Rearrange code" command/toolbar icon had no affect on .mxml files.  
+
+###0.8.7
+
+6/25/2011
+####New Features
+
+* None
+
+####Fixes
+
+* Support I added in previous release for associating properties with getter/setter without sorting by name was incomplete.  This release just completes the fix to make property headers work correctly.
 
 ###0.8.6
 
