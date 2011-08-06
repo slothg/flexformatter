@@ -1,4 +1,4 @@
-#Version 0.8.8
+#Version 0.8.9
  
  
 * System Requirements: Eclipse 3.3+, JDK 1.5+.  The intent is for this software to be used with FlexBuilder 3 or 4, but there are no actual dependencies.
@@ -35,6 +35,18 @@ bug/feature report through the 'tracker'.
  
 -----------------------------------------------------------------------------------------------------------
 #Change log
+
+###0.8.9
+
+8/6/2011
+####New Features
+
+* New option to not add line breaks for single-line functions.  This applies to functions that are already on a single line and don't contain any code blocks in their bodies.  On the Actionscript 'tweaks' page.
+
+####Fixes
+
+* Fixed "remove unused namespaces" to discover namespace uses when they are only used on an attribute.  Someone sent me an example where 'fb' was used that way.  
+
 
 ###0.8.8
 
